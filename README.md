@@ -1,5 +1,8 @@
 **Testes automatizados:** TDD com Python
 
+**setUp** <br>
+Cria os objetos utilizados pelos testes. Esse método é executado antes de cada teste, dessa forma, garante que um teste não influencia outro, já que sempre irá ter novos objetos.
+
 <details>
     <summary>Comandos</summary>
     <br>
