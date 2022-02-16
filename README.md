@@ -10,4 +10,6 @@ Cria os objetos utilizados pelos testes. Esse método é executado antes de cada
     <pre>Ctrl + Shift + t</pre>
     Rodar os testes pelo terminal:
     <pre>python -m unittest src/leilao/test_dominio.py</pre>
+    Renomear:
+    <pre>Shift + F6</pre>
 </details>

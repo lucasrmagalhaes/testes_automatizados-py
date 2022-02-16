@@ -27,13 +27,14 @@ class Leilao:
         self.menor_lance = sys.float_info.max
 
     def propoe(self, lance: Lance):
-        if lance.valor > self.maior_lance:
-            self.maior_lance = lance.valor
-        if lance.valor < self.menor_lance:
-            self.menor_lance = lance.valor
+        if not self.__lances or self.__lances[-1].usuario != lance.usuario:
+            if lance.valor > self.maior_lance:
+                self.maior_lance = lance.valor
+            if lance.valor < self.menor_lance:
+                self.menor_lance = lance.valor
 
-        self.__lances.append(lance)
+            self.__lances.append(lance)
 
     @property
     def lances(self):
-        return self.__lances[:]
+        return self.__lances[:]  # cópia rasa
