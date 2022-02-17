@@ -6,16 +6,19 @@ Cria os objetos utilizados pelos testes. Esse método é executado antes de cada
 [pytest](https://docs.pytest.org/en/7.0.x/)
 
 <details>
-    <summary>Comandos</summary>
+    <summary><strong>Comandos</strong></summary>
     <br>
-    Rodar o comando em cima da Classe para iniciar um teste:
+    <strong>Rodar o comando em cima da Classe para iniciar um teste:</strong>
     <pre>Ctrl + Shift + t</pre>
-    Rodar os testes pelo terminal:
+    <br>
+    <strong>Rodar os testes pelo terminal:</strong>
     <pre>python -m unittest src/leilao/test_dominio.py</pre>
-    Renomear:
+    <br>
+    <strong>Renomear:</strong>
     <pre>Shift + F6</pre>
     <br>
-    pytest
+    <strong>pytest</strong>
     <pre>pip install pytest</pre>
     <pre>pytest --version</pre>
+    <pre>pytest</pre>
 </details>
