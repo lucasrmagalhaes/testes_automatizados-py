@@ -21,4 +21,7 @@ Cria os objetos utilizados pelos testes. Esse método é executado antes de cada
     <pre>pip install pytest</pre>
     <pre>pytest --version</pre>
     <pre>pytest</pre>
+    <br>
+    <strong>Rodar todos os testes:</strong>
+    <pre>Ctrl + Shift + F10</pre>
 </details>
